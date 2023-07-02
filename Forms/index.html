@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="http://httpbin.org/post" method="post">
+
+    <fieldset> <legend>Basic details</legend>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first name">
+
+        <label for="last_name">Last Name: </label>
+        <input type="text" id="last_name" name="last name">
+    </fieldset>
+
+    <fieldset> <legend>Email Info</legend>
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email_id" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="Password"> <br><br>
+    </fieldset>
+    
+    <fieldset><legend>MCQ</legend>
+    <div>
+        <input type="radio" id="option_a" name="mcq" value="A">
+        <label for="option_a">Option A</label>
+    </div><br>
+
+    <div>
+        <input type="radio" id="option_b" name="mcq" value="B">
+        <label for="option_b">Option B</label>
+    </div><br>
+    </fieldset>
+
+    <fieldset><legend>What all do you choose?</legend>
+        <input type="checkbox" id="A" name="options">
+        <label for="A">Opt for A</label>
+
+        <input type="checkbox" id="B" name="options">
+        <label for="B">Opt for B</label>
+    
+    </fieldset>
+
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+
+    <div>
+        <button type="reset">Reset</button>
+    </div>
+
+    
+    </form>
+</body>
+</html>

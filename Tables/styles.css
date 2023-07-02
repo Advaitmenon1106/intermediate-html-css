@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+table, td, th{
+    border: 1px solid black;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px silver;
+}
+
+body{
+    font-family: 'Bacasime Antique', serif;
+}
+
+table, td, th:focus{
+    background: silver;
+}
